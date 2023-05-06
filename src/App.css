@@ -7,6 +7,41 @@
   pointer-events: none;
 }
 
+.add-to-cart img{
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+
+.btn-wrapper button{
+  background-color: skyblue;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: black;
+  box-shadow: black 0px 1px 5px;
+}
+
+.img-wrapper img{
+  height: 50;
+}
+
+.cart-wrapper{
+  height: 120px;
+  width: 500px;
+  border: 1px solid wheat;
+  margin-left: 10%;
+} 
+
+.item{
+  float: left;
+  display: inline-block;
+  width: 100px;
+  padding: 30px;
+  height: 70px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
